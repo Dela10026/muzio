@@ -1,7 +1,7 @@
 require("dotenv").config();
 
 module.exports = {
-    token: process.env.TOKEN || "BOTTOKEN", // <==== PASTE YOU TOKEN
+    token: process.env.TOKEN || "MTI0ODMzNDk1OTU4MDU0NTAyNA.GeJGH_.GXGGs7ZRfVgMEvL9ciNNXIA7CcR-XbSQW1oROg", // <==== PASTE YOU TOKEN
     prefix: process.env.PREFIX || "f?", // <==== SET YOU PRERIX BOT [ OWNER COMMANDS ]
     color: process.env.EMBED_COLOR || "#c50632", // <==== YOU EMBEDED HEX COLOR
     owner: process.env.OWNER_ID || "900708551805268019", // <==== BOTS OWNER ID
@@ -13,8 +13,8 @@ module.exports = {
     playSource: process.env.PLAY_SOURCE || "ytsearch", // <==== SET YOUR PLAY SOURCE || "ytsearch","ytmsearch","scsearch"
     poruOptions: {
         defaultPlatform: process.env.DEFAULT_SOURCE || "ytsearch", // <==== SET DEFAULT SOURCE || "ytsearch","ytmsearch","scsearch"
-        clientID: process.env.SPOTIFY_ID || "YourSpotifyID", // <==== SPOTIFY CLIENT ID
-        clientSecret: process.env.SPOTIFY_SECRET || "YourSpotifySecret", // <==== SPOTIFY CLIENT SECRET
+        clientID: process.env.SPOTIFY_ID || "b2e3a9874e074d3cb4ce8160aae9b8b3", // <==== SPOTIFY CLIENT ID
+        clientSecret: process.env.SPOTIFY_SECRET || "e14eac4d6ad845f49134daf87a5b592e", // <==== SPOTIFY CLIENT SECRET
         reconnectTries: 5, // <==== TOTAL ATTEMPS TO TRY IF RECONNECT FAILED. YOU CAN CHANGE IT TO "Infinity" FOR UNLIMITED ATTEMPS.
         playlistLimit: 2, // <==== 1 = 100 TRACKS
         albumLimit: 2, // <==== 1 = 50 TRACKS
@@ -41,7 +41,7 @@ module.exports = {
     ],
 
     // ⬇⬇⬇ LINK BOTS DETAILS
-    mongoUri: process.env.MONGO_URI || "mongodb+srv://YourMongoURI", // <==== YOUR MONGODB LINK
+    mongoUri: process.env.MONGO_URI || "mongodb+srv://wqgh2c:utfgq@cluster0.mmfongd.mongodb.net/?retryWrites=true&w=majority", // <==== YOUR MONGODB LINK
     supportUrl: process.env.SUPPORT_URL || "https://discord.gg/TjtXnYD9SP", // <==== YOUR SUPPORT SERVER LINK
     voteUrl: process.env.VOTE_URL || "https://www.gearhost.my.id/", // <==== YOUR VOTE URL
     inviteUrl: process.env.INVITE_URL || "https://discord.com/api/oauth2/authorize?client_id=1122883732303511583&permissions=8&scope=bot+applications.commands", // <==== YOUR BOT INVITE LINK
