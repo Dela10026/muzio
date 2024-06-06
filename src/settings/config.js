@@ -41,7 +41,7 @@ module.exports = {
     ],
 
     // ⬇⬇⬇ LINK BOTS DETAILS
-    mongoUri: process.env.MONGO_URI || "mongodb+srv://wqgh2c:utfgq@cluster0.mmfongd.mongodb.net/?retryWrites=true&w=majority", // <==== YOUR MONGODB LINK
+    mongoUri: process.env.MONGO_URI || "mongodb+srv://dela100:Dailiya1026@dela100.uvzp53q.mongodb.net/?retryWrites=true&w=majority", // <==== YOUR MONGODB LINK
     supportUrl: process.env.SUPPORT_URL || "https://discord.gg/TjtXnYD9SP", // <==== YOUR SUPPORT SERVER LINK
     voteUrl: process.env.VOTE_URL || "https://www.gearhost.my.id/", // <==== YOUR VOTE URL
     inviteUrl: process.env.INVITE_URL || "https://discord.com/api/oauth2/authorize?client_id=1122883732303511583&permissions=8&scope=bot+applications.commands", // <==== YOUR BOT INVITE LINK
